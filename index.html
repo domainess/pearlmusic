@@ -19,6 +19,12 @@
         background-size: cover;
         background-color: #fff;
     }
+        
+    @media only screen and (max-width: 500px) {
+        .promo-banner::before {
+            background-image: url(bg.webp);
+        }
+    }
     </style>
     
     <link rel="stylesheet" href="frontend.min.css?version=8">
@@ -566,6 +572,7 @@
     <h2>Кто мы - жемчужины музыки?</h2>
     <div class="wrapper">
         <picture>
+            <source srcset="images/webp/image13.webp" media="(max-width: 500px)">
             <source srcset="images/webp/image17.webp" media="(min-width: 200px)">
             <img width="764" height="438" src="images/jpg/image17.jpg" alt="">
         </picture>
@@ -582,6 +589,7 @@
     <div class="items">
         <div class="item">
             <picture>
+                <source srcset="images/webp/image14.webp" media="(max-width: 500px)">
                 <source srcset="images/webp/image18.webp" media="(min-width: 200px)">
                 <img width="764" height="438" src="images/jpg/image18.jpg" alt="">
             </picture>
@@ -593,6 +601,7 @@
         </div>
         <div class="item">
             <picture>
+                <source srcset="images/webp/image15.webp" media="(max-width: 500px)">
                 <source srcset="images/webp/image19.webp" media="(min-width: 200px)">
                 <img width="764" height="438" src="images/jpg/image19.jpg" alt="">
             </picture>
@@ -604,6 +613,7 @@
         </div>
         <div class="item">
             <picture>
+                <source srcset="images/webp/image16.webp" media="(max-width: 500px)">
                 <source srcset="images/webp/image20.webp" media="(min-width: 200px)">
                 <img width="764" height="438" src="images/jpg/image20.jpg" alt="">
             </picture>
